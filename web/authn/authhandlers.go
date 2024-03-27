@@ -17,7 +17,7 @@ import (
 	"github.com/hlandau/xlog"
 	"github.com/jackc/pgx"
 	"gopkg.in/alexcesaro/quotedprintable.v3"
-	"gopkg.in/hlandau/easyconfig.v1/cflag"
+	"github.com/empyrz/easyconfig/cflag"
 	"gopkg.in/hlandau/passlib.v1"
 	"html"
 	"io"
