@@ -22,7 +22,7 @@ import (
 	"github.com/hlandau/degoutils/web/weberror"
 	"github.com/hlandau/xlog"
 	"github.com/llgcode/draw2d"
-	"gopkg.in/hlandau/easyconfig.v1/cflag"
+	"github.com/empyrz/easyconfig/cflag"
 	"gopkg.in/hlandau/easymetric.v1/cexp"
 	"gopkg.in/tylerb/graceful.v1"
 	"net"
