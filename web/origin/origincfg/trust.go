@@ -1,7 +1,7 @@
 package origincfg
 
 import "github.com/hlandau/degoutils/web/origin/originfuncs"
-import "gopkg.in/hlandau/easyconfig.v1/cflag"
+import "github.com/empyrz/easyconfig/cflag"
 
 // The trust function to be used. Can be set by configurable 'trustforwarded'.
 var TrustPolicy = "last"
