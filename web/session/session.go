@@ -9,7 +9,7 @@ import (
 	"github.com/gorilla/context"
 	"github.com/hlandau/degoutils/web/origin"
 	"github.com/hlandau/degoutils/web/session/storage"
-	"gopkg.in/hlandau/easyconfig.v1/cflag"
+	"github.com/empyrz/easyconfig/cflag"
 )
 
 var cookieNameFlag = cflag.String(nil, "sessioncookiename", "s", "Session cookie name")
