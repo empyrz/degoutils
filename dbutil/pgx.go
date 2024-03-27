@@ -2,7 +2,7 @@ package dbutil
 
 import "github.com/jackc/pgx"
 import "strings"
-import "gopkg.in/hlandau/easyconfig.v1/cflag"
+import "github.com/empyrz/easyconfig/cflag"
 
 var maxConnectionsFlag = cflag.Int(nil, "maxpgconnections", 2, "Maximum number of PostgreSQL pool connections")
 
