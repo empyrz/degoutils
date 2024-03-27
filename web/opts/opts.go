@@ -2,7 +2,7 @@
 // by web application servers.
 package opts
 
-import "https://github.com/empyrz/easyconfig/cflag"
+import "github.com/empyrz/easyconfig/cflag"
 import "github.com/hlandau/xlog"
 import "crypto/rand"
 import "crypto/hmac"
